@@ -1,3 +1,4 @@
+print("Claim CODES")
 function sendCode(code)
     local args = {
         [1] = code
