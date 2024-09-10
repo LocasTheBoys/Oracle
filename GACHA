@@ -15,7 +15,7 @@ local function summonOne(times)
             [2] = "Special"
         }
         game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-        wait(0.1) -- Opsional: menambahkan jeda jika diperlukan
+        wait(1) -- Opsional: menambahkan jeda jika diperlukan
     end
 end
 
