@@ -1,0 +1,20 @@
+-- Menjalankan script dari URL secara berurutan dengan wait di antaranya
+print("Full Script Is Running")
+-- Script 1: ClaimUnitAwal
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LocasTheBoys/Oracle/main/ClaimUnitAwal"))()
+wait(1) -- Memberi waktu sebelum lanjut ke script berikutnya
+
+-- Script 2: SCClaimCodes
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LocasTheBoys/Oracle/main/SCClaimCodes"))()
+wait(1) -- Sesuaikan durasi jika perlu
+
+-- Script 3: ClaimDaily
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LocasTheBoys/Oracle/main/ClaimDaily"))()
+wait(1)
+
+-- Script 4: SCTutorClaim
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LocasTheBoys/Oracle/main/SCTutorClaim"))()
+wait(1)
+
+-- Script 5: GACHA
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LocasTheBoys/Oracle/main/GACHA"))()
