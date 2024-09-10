@@ -1,4 +1,5 @@
 -- Script 1: Menjalankan Toggle Rare
+print("GACHA ON")
 local function toggleRare()
     local args = {
         [1] = "Toggle",
