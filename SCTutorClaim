@@ -1,5 +1,5 @@
 --AscensionTutorial, SummonTutorial, EvolveTutorial, StatRerollTutorial, TraitsTutorial, EnemyIndexTutorial, BattlePassTutorial, PlayTutorial, 
-
+print("Claim Tutorial")
 
 -- Fungsi untuk mengirim tutorial event
 function sendTutorialEvent(eventType, tutorialCode)
