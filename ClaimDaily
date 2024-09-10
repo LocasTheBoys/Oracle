@@ -1,5 +1,5 @@
 --claim daily
-
+print("Claim Daily")
 local args = {
     [1] = "Claim",
     [2] = 1
