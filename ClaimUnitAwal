@@ -1,4 +1,5 @@
 -- Script 1: Memilih Roku
+print("Claim Unit Awal")
 local function selectRoku()
     local args = {
         [1] = "Select",
