@@ -5,8 +5,14 @@ for i = 1, 10 do
 
     -- Script gabungan yang menjalankan semua perintah secara berurutan
 
-    -- Script 1: Claim Daily Reward
-    game:GetService("ReplicatedStorage").Networking.DailyRewardEvent:FireServer(unpack({[1] = "Claim", [2] = 1}))
+    -- Script 1: Claim Daily Reward untuk setiap index 1 hingga 7
+    for j = 1, 7 do
+        local args = {
+            [1] = "Claim",
+            [2] = j
+        }
+        game:GetService("ReplicatedStorage").Networking.DailyRewardEvent:FireServer(unpack(args))
+    end
 
     -- Script 2: Claim Quest "Summoner"
     game:GetService("ReplicatedStorage").Networking.Quests.ClaimQuest:FireServer(unpack({[1] = "Summoner I"}))
@@ -27,4 +33,8 @@ for i = 1, 10 do
     game:GetService("ReplicatedStorage").Networking.Quests.ClaimQuest:FireServer(unpack({[1] = "Weekly Summon I"}))
 
     game:GetService("ReplicatedStorage").Networking.Quests.ClaimQuest:FireServer(unpack({[1] = "Weekly Summon II"}))
+
+    -- Script 7: Claim All Units
+    game:GetService("ReplicatedStorage").Networking.Units.CollectionEvent:FireServer(unpack({[1] = "ClaimAll"}))
+
 end
