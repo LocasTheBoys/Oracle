@@ -8,13 +8,13 @@ wait(1) -- Memberi waktu sebelum lanjut ke script berikutnya
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LocasTheBoys/Oracle/main/SCClaimCodes"))()
 wait(1) -- Sesuaikan durasi jika perlu
 
--- Script 3: ClaimDaily
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LocasTheBoys/Oracle/main/ClaimDaily"))()
-wait(1)
-
--- Script 4: SCTutorClaim
+-- Script 3: SCTutorClaim
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LocasTheBoys/Oracle/main/SCTutorClaim"))()
 wait(1)
 
--- Script 5: GACHA
+-- Script 4: GACHA
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LocasTheBoys/Oracle/main/GACHA"))()
+wait(1)
+
+-- Script 5: ClaimDaily
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LocasTheBoys/Oracle/main/ClaimDaily"))()
