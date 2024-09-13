@@ -12,7 +12,7 @@ end
 local function summonOne(times)
     for i = 1, times do
         local args = {
-            [1] = "SummonOne",
+            [1] = "SummonTen",
             [2] = "Special"
         }
         game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
